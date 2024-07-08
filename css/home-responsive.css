@@ -1,0 +1,819 @@
+/* Moble Screen */
+@media screen and (max-width: 426px) {
+    body{
+        max-width: 100%;
+    }
+
+    header{
+        background-image: unset;
+        max-width: 100%;
+        padding: 0;       
+    }
+
+    nav{
+       padding: 1.125rem 1rem;
+       box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.04);
+       border-radius: 6px 6px 0px 0px;
+       background: #FFF;
+    }
+
+    .nav{
+        padding-bottom: 0;
+    }
+
+
+    .nav .brand img{
+        max-width: 5.5rem;
+        max-height: 5.5rem;
+    }
+
+    .nav .login{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .nav .login p{
+        color: #1D1D1F;
+        font-size: 0.625rem;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 0.9275rem;
+    }
+
+    .nav .login .icon{
+        padding: 4.41px 8.821px;
+        gap: 8.821px;
+    }
+
+    .nav .login .icon img{
+        width: 17.642px;
+        height: 17.642px;
+    }
+
+    .flight{
+        max-width: 100%;
+        max-height: 70%;
+        padding: 2.7rem 0rem 2.5rem 1.5rem;
+    }
+
+    .flight .top{
+        max-height: 39vh;
+        max-width: 60%;
+    }
+
+    .flight .top h5{
+        color: #13303C;
+        font-size: 0.8rem;
+        line-height: 1.325rem;
+    }
+
+    .flight .top h1{
+        color: #13303C;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        padding: 0.625rem 0rem 0.625rem 0rem;
+    }
+
+    .flight .top button{
+        padding: 0.5rem 1.5rem;
+        border-radius: 8px;
+        margin-bottom: 2.5rem;
+    }
+
+    .flight .middle{
+        padding-bottom: 0.4rem;
+    }
+
+    .flight .middle .middle1{
+        border-radius: 10px;
+        border: 1px solid rgba(14, 40, 60, 0.10);
+        box-shadow: 0px 4px 4px 0px rgba(9, 18, 22, 0.08);
+        padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+        gap: 3rem;
+    }
+
+    .flight .middle .middle1 a{
+        color: #09374A;
+        font-size: 0.8rem;
+        line-height: 1.3rem;
+    }
+
+    .flight .bottom{
+        max-width: 100%;
+        max-height: 100vh;
+        background: #FFF;
+        box-shadow: 0px 4px 6px 0px #FFF;
+        backdrop-filter: blur(0px);
+        border-radius: 0px;
+        padding: 0rem;
+        margin-right: 1.5rem;
+    }
+
+    .flight .bottom .up{
+        gap: 1rem;
+        padding-bottom: 1rem;
+    }
+    
+    .flight .bottom .up .left{
+        display: flex;
+        padding: 7.278px 9.097px;
+        justify-content: center;
+        align-items: center;
+        gap: 0.33rem;
+        border-radius: 9.097px;
+        background: rgba(255, 255, 255, 0.90);
+        box-shadow: 0px 3.639px 3.639px 0px rgba(8, 25, 32, 0.02);
+    }
+
+    .flight .bottom .up .left p{
+        color: rgba(9, 55, 74, 0.60);
+        font-size: 0.8rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.1rem;
+    }
+
+    .flight .bottom .center{
+        display: block;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .flight .bottom .center p{
+        color: #07080A;
+        font-size: 0.75rem;
+        line-height: 1.125rem;
+    }
+    
+    .flight .bottom .center h3{
+        color: #09374A;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .flight .bottom .center .center1{
+        padding: 0.625rem 1.5rem 0.625rem 1.5rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2px;
+        align-self: stretch;
+        border-radius: 24px;
+        border: 1px solid rgba(0, 0, 0, 0.32);
+        background: #FFF;
+        margin-bottom: 0.375rem;
+    }
+
+    .flight .bottom .center .center2{
+        padding: 0.625rem 1.5rem 0.625rem 1.5rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2px;
+        align-self: stretch;
+        border-radius: 24px;
+        border: 1px solid rgba(0, 0, 0, 0.32);
+        background: #FFF;
+        margin-bottom: 0.375rem;
+    }
+
+    .flight .bottom .center .center3{
+        padding: 0.625rem 1.5rem 0.625rem 1.5rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2px;
+        align-self: stretch;
+        border-radius: 24px;
+        border: 1px solid rgba(0, 0, 0, 0.32);
+        background: #FFF;
+        margin-bottom: 0.375rem;
+    }
+
+    .flight .bottom .center .center3 .write{
+        width: 100%;
+    }
+
+    .flight .bottom .center .center3 .date{
+        justify-content: space-between;
+        display: flex;
+        padding-top: 0rem;
+    }
+
+    .flight .bottom .center .center3 button{
+        display: none;
+    }
+
+    .flight .bottom .down{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding-top: 1rem;
+        align-items: center;
+    }
+
+    .flight .bottom .down button{
+        display: flex;
+        width: 12.3125rem;
+        height: 3.5625rem;
+        padding: 0.625rem 2.3rem 0.625rem 2.3rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.625rem;
+        border-radius: 12px;
+        background: linear-gradient(126deg, #0DC5FF 46.84%, rgba(11, 107, 177, 0.50) 120.45%);
+        box-shadow: 0px 4px 4px 0px rgba(8, 25, 32, 0.10);
+        border: none;
+        color: #FFF;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.5rem;
+    }
+
+    .flight .bottom .down{
+        padding-top: 0rem;
+        justify-content: space-between;
+    }
+
+    .flight .bottom .down1{
+        padding: 0;
+        gap: 0.625rem;
+        border-radius: 10px;
+        opacity: 0.5;
+        background: #F1F1F1;
+        box-shadow: 0px 4px 4px 0px rgba(8, 25, 32, 0.02);
+        width: 5rem;
+        height: 2rem;
+    }
+
+    .flight .bottom .down1 p{
+        color: rgba(9, 55, 74, 0.80);
+        font-size: 0.875rem;
+        line-height: 1.3125rem;
+    }
+
+    .flight .bottom .down1 img{
+        width: 1rem;
+        height: 1rem;
+    }
+
+    main{
+        padding: 10rem 1.5rem 0rem 1.5rem;
+    }
+
+    .main-top .top-left h2{
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+    }
+
+    .main-top .top-left p{
+        color: rgba(7, 8, 10, 0.85);
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+    }
+
+    .main-top{
+        padding-bottom: 1.75rem;
+    }
+
+    .main-top .top-right{
+        display: none;
+    }
+
+    .main-middle{
+        display: block;
+    }
+
+    .main-middle .kaduna{
+        width: 100%;
+        height: 71vh;
+        margin-bottom: 1.5rem;
+    }
+
+    .main-middle .abuja{
+        width: 100%;
+        height: 71vh;
+        margin-bottom: 1.5rem;
+    }
+
+    .main-middle .lagos{
+        width: 100%;
+        height: 71vh;
+    }
+
+    .main-middle .see-more{
+        display: none;
+    }
+
+    .main-down{
+        margin: 5rem 0rem 0rem 0rem;
+        width: 100%;
+        height: 19.5vh;
+    }
+
+    .foot-up .up-right{
+        display: none;
+    }
+
+    .foot-middle{
+        padding: 2rem 1.5rem 2rem 1.5rem;
+    }
+
+    .foot-up .up-left{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        padding: 0rem 1.5rem 0rem 1.5rem;
+    }
+
+    .foot-middle .middle-right{
+        gap: 1rem;
+        padding-right: 1.5rem ;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    body{
+        width: 100%;
+    }
+
+    header{
+        max-width: 100%;
+    }
+
+    nav{
+       width: 100%;
+    }
+
+    nav .nav{
+        width: 100%;
+    }
+
+    .nav{
+        padding-bottom: 0;
+    }
+
+    .nav .login{
+        gap: 0.5rem;
+    }
+
+    .flight .top h5{
+        line-height: 1rem;
+    }
+
+    .flight .top h1{
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+        padding: 0rem 0rem 0.625rem 0rem;
+    }
+
+    .flight .top button{
+        padding: 0.3rem 1rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .flight .middle{
+        padding-bottom: 0.4rem;
+    }
+
+    .flight .middle .middle1{
+        gap: 2rem;
+    }
+
+    .flight .bottom .up{
+        gap: 1rem;
+        max-width: 100%;
+    }
+    
+    .flight .bottom .up .left img{
+        height: 1rem;
+        width: 1rem;
+    }
+
+    .flight .bottom .up .left p{
+        font-size: 0.6rem;
+    }
+
+    .flight .bottom .down button{
+        width: 9.3125rem;
+        height: 3rem;
+    }
+
+    main{
+        padding: 7rem 1.5rem 0rem 1.5rem;
+    }
+
+    .main-top .top-left p{
+        font-size: 0.8rem;
+    }
+
+    .main-middle .kaduna{
+        background-size: 100%;
+        height: 53vh;
+        margin-bottom: 0rem;
+    }
+
+    .main-middle .abuja{
+        background-size: 100%;
+        height: 53vh;
+        margin-bottom: 0rem;
+    }
+
+    .main-middle .lagos{
+        background-size: 100%;
+        height: 53vh;
+        margin-bottom: 0rem;
+    }
+
+    .main-down{
+        margin: 2rem 0rem 0rem 0rem;
+        height: 14vh;
+    }
+
+    .foot-middle{
+        padding: 2rem 0rem 2rem 1.5rem;
+    }
+
+    .foot-middle .middle-right img{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .nav{
+        padding-bottom: 0;
+    }
+    
+    .flight .top h1{
+        font-size: 1.3rem;
+    }
+    
+    .main-middle .kaduna{
+        background-size: 100%;
+        height: 65vh;
+        margin-bottom: 0rem;
+    }
+
+    .main-middle .abuja{
+        background-size: 100%;
+        height: 65vh;
+        margin-bottom: 0rem;
+    }
+
+    .main-middle .lagos{
+        background-size: 100%;
+        height: 65vh;
+        margin-bottom: 0rem;
+    }
+
+    .main-down{
+        margin: 2rem 0rem 0rem 0rem;
+        height: 17vh;
+    }
+
+    .foot-middle{
+        padding: 2rem 0rem 2rem 1.5rem;
+    }
+
+    .foot-middle .middle-right img{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}
+
+/* @media screen and (max-width: 769px) {
+    body{
+        max-width: 100%;
+    }
+
+    header{
+        background-image: unset;
+        max-width: 100%;
+        padding: 0;       
+    }
+
+    nav{
+       padding: 1.2rem 3rem;
+       box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.04);
+       border-radius: 6px 6px 0px 0px;
+       background: #FFF;
+    }
+
+    .nav{
+        padding-bottom: 0;
+    }
+
+    .nav .brand img{
+        max-width: 8rem;
+        max-height: 8rem;
+    }
+
+    .nav .login{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .nav .login p{
+        color: #1D1D1F;
+        font-size: 0.8rem;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 0.9275rem;
+    }
+
+    .nav .login .icon{
+        padding: 6px 9px;
+        gap: 0.7rem;
+    }
+
+    .nav .login .icon img{
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+
+    .flight{
+        max-width: 100%;
+        max-height: 70%;
+        padding: 2.7rem 0rem 2.5rem 3rem;
+    }
+
+    .flight .top{
+        max-height: 39vh;
+        max-width: 60%;
+    }
+
+    .flight .top h5{
+        color: #13303C;
+        font-size: 1.5rem;
+        line-height: 1.325rem;
+    }
+
+    .flight .top h1{
+        color: #13303C;
+        font-size: 2.5rem;
+        line-height: 3rem;
+        padding: 0.625rem 0rem 0.625rem 0rem;
+    }
+
+    .flight .top button{
+        padding: 0.8rem 2rem;
+        border-radius: 8px;
+        margin-bottom: 2.5rem;
+    }
+
+    .flight .middle{
+        padding-bottom: 1rem;
+    }
+
+    .flight .middle .middle1{
+        border-radius: 10px;
+        border: 1px solid rgba(14, 40, 60, 0.10);
+        box-shadow: 0px 4px 4px 0px rgba(9, 18, 22, 0.08);
+        padding: 0.7rem 3rem 0.7rem 3rem;
+        gap: 4rem;
+    }
+
+    .flight .middle .middle1 a{
+        color: #09374A;
+        font-size: 1.2rem;
+        line-height: 1.3rem;
+    }
+
+    .flight .bottom{
+        max-width: 100%;
+        max-height: 100vh;
+        background: #FFF;
+        box-shadow: 0px 4px 6px 0px #FFF;
+        backdrop-filter: blur(0px);
+        border-radius: 0px;
+        padding: 0rem;
+        margin-right: 3rem;
+    }
+
+    .flight .bottom .up{
+        gap: 1.5rem;
+        padding-bottom: 1rem;
+    }
+    
+    .flight .bottom .up .left{
+        display: flex;
+        padding: 7.278px 9.097px;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        border-radius: 9.097px;
+        background: rgba(255, 255, 255, 0.90);
+        box-shadow: 0px 3.639px 3.639px 0px rgba(8, 25, 32, 0.02);
+    }
+
+    .flight .bottom .up .left p{
+        color: rgba(9, 55, 74, 0.60);
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.1rem;
+    }
+
+    .flight .bottom .center{
+        display: block;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .flight .bottom .center p{
+        color: #07080A;
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+    }
+    
+    .flight .bottom .center h3{
+        color: #09374A;
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .flight .bottom .center .center1{
+        padding: 1rem 1.5rem 1rem 1.5rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2px;
+        align-self: stretch;
+        border-radius: 24px;
+        border: 1px solid rgba(0, 0, 0, 0.32);
+        background: #FFF;
+        margin-bottom: 0.375rem;
+    }
+
+    .flight .bottom .center .center2{
+        padding: 1rem 1.5rem 1rem 1.5rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2px;
+        align-self: stretch;
+        border-radius: 24px;
+        border: 1px solid rgba(0, 0, 0, 0.32);
+        background: #FFF;
+        margin-bottom: 0.375rem;
+    }
+
+    .flight .bottom .center .center3{
+        padding: 1rem 1.5rem 1rem 1.5rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2px;
+        align-self: stretch;
+        border-radius: 24px;
+        border: 1px solid rgba(0, 0, 0, 0.32);
+        background: #FFF;
+        margin-bottom: 1rem;
+    }
+
+    .flight .bottom .center .center3 .write{
+        width: 100%;
+    }
+
+    .flight .bottom .center .center3 .date{
+        justify-content: space-between;
+        display: flex;
+        padding-top: 0.1rem;
+    }
+
+    .flight .bottom .center .center3 button{
+        display: none;
+    }
+
+    .flight .bottom .down{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding-top: 1rem;
+        align-items: center;
+    }
+
+    .flight .bottom .down button{
+        display: flex;
+        width: 12.3125rem;
+        height: 3.5625rem;
+        padding: 0.625rem 2.3rem 0.625rem 2.3rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.625rem;
+        border-radius: 12px;
+        background: linear-gradient(126deg, #0DC5FF 46.84%, rgba(11, 107, 177, 0.50) 120.45%);
+        box-shadow: 0px 4px 4px 0px rgba(8, 25, 32, 0.10);
+        border: none;
+        color: #FFF;
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.5rem;
+    }
+
+    .flight .bottom .down{
+        padding-top: 0rem;
+        justify-content: space-between;
+    }
+
+    .flight .bottom .down1{
+        padding: 0;
+        gap: 0.625rem;
+        border-radius: 10px;
+        opacity: 0.5;
+        background: #F1F1F1;
+        box-shadow: 0px 4px 4px 0px rgba(8, 25, 32, 0.02);
+        width: 5rem;
+        height: 2rem;
+    }
+
+    .flight .bottom .down1 p{
+        color: rgba(9, 55, 74, 0.80);
+        font-size: 0.875rem;
+        line-height: 1.3125rem;
+    }
+
+    .flight .bottom .down1 img{
+        width: 1rem;
+        height: 1rem;
+    }
+
+    main{
+        padding: 20rem 3rem 0rem 3rem;
+    }
+
+    .main-top .top-left h2{
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+
+    .main-top .top-left p{
+        color: rgba(7, 8, 10, 0.85);
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+
+    .main-top{
+        padding-bottom: 1.75rem;
+    }
+
+    .main-top .top-right{
+        display: none;
+    }
+
+    .main-middle{
+        display: block;
+    }
+
+    .main-middle .kaduna{
+        background-size: 80%;
+        width: 100%;
+        height: 110vh;
+        margin-bottom: 1.5rem;
+    }
+
+    .main-middle .abuja{
+        background-size: 80%;
+        width: 100%;
+        height: 110vh;
+        margin-bottom: 1.5rem;
+    }
+
+    .main-middle .lagos{
+        background-size: 80%;
+        width: 100%;
+        height: 110vh;
+        margin-bottom: 1.5rem;
+    }
+
+    .main-middle .see-more{
+        display: none;
+    }
+
+    .main-down{
+        margin: 5rem 0rem 0rem 0rem;
+        width: 100%;
+        height: 35vh;
+    }
+
+    .foot-up .up-right{
+        display: none;
+    }
+
+    .foot-middle{
+        padding: 2rem 3rem 2rem 3rem;
+    }
+
+    .foot-up .up-left{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        padding: 0rem 3rem 0rem 3rem;
+    }
+
+    .foot-middle .middle-right{
+        gap: 1rem;
+        padding-right: 1.5rem ;
+    }
+} */
